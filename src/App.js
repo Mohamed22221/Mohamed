@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
-
+import styled from "styled-components";
+import { BrowserRouter , Routes,Route,} from "react-router-dom";
+import SideBar from './components/SideBar';
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Lines from "./components/Lines"
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  
+    <StyleApp> 
+       <SideBar />
+       
+       <div className="content">
+        <Lines />
+      
+     <Routes>
+     <Route path="/" element={ <Home />} /> 
+       <Route path="/Mohamed" element={ <Home />} /> 
+       <Route path="/about" element={ <About />} /> 
+     </Routes>
+     </div>
+</StyleApp>
+     
+   
+   
   );
 }
 
+const StyleApp = styled.div`
+background-color: var(--background-dark-color);
+
+.content{
+ 
+  
+  position: relative;
+  margin-left: 300px;
+  height: 100vh;
+}
+`;
 export default App;
