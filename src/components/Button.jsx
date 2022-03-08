@@ -12,11 +12,11 @@ function PrimaryButton({title}) {
 const PrimaryButtonStyled = styled.a`
     margin-top: 24px ;
     background-color: var(--primary-color);
-    padding: 12px 20px;
+    padding: 8px 20px;
     color: white;
     cursor: pointer;
     display: inline-block;
-    font-size: inherit;
+    font-size: 15px;
     text-transform: uppercase;
     position: relative;
     transition: all .4s ease-in-out;

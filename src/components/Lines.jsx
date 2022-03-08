@@ -13,7 +13,8 @@ const Lines = () => {
 }
 const MainLines = styled.div`
    position: absolute;
-    height: 100%;
+    bottom:0 ;
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
