@@ -3,7 +3,7 @@ import blog2 from '../img/blogs/blog2.svg'
 import blog3 from '../img/blogs/blog3.svg'
 import blog4 from '../img/blogs/blog4.svg'
 import blog5 from '../img/blogs/blog5.svg'
-import blog6 from '../img/blogs/blog6.jpg'
+
 
 const DataBlog = [
     {

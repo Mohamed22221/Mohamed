@@ -41,7 +41,7 @@ const Contact = () => {
             <div className='content-contact'>
                 <p>
                     Phone
-                    <a href='01116798122'>+02-0111-6798-122</a>
+                    <a href='tel:01116798122'>+02-0111-6798-122</a>
                 </p>
                 
             </div>

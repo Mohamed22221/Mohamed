@@ -10,7 +10,7 @@ const About = () => {
   return (
     <Layouts>
       <MainAbout>
-      <Title title={'About Me'} span={'About Me'} />
+      <Title title={'About'} span={'About Me'} />
       <ImgeSection />
       <ServSection />
       <RevSection />

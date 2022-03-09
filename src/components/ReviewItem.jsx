@@ -9,7 +9,7 @@ const ReviewItem = ({text ,span}) => {
   )
 }
 const RevivewItemStyled = styled.div`
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     border-left: 6px solid var(--trasparent);
     background-color: var(--background-dark-grey);
     position: relative;
