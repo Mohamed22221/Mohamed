@@ -19,5 +19,8 @@ const MainNav = styled.div`
     background-color:var( --sidebar-dark-color);
     height: 100vh;
     position: fixed;
+    @media (max-width:1100px) {
+      transform:translateX(-100%) ;
+    }
 `
 export default SideBar

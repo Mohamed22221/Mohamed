@@ -17,7 +17,7 @@ const PortfolioData = [
       link1: 'https://mohamed22221.github.io/Mohamed/',
       link2: 'https://github.com/Mohamed22221/Mohamed',
       title: 'Portfolio',
-      text: 'Created with only React.js/css3 ,styled-components and material ui .'
+      text: 'Created with only React.js ,css3 ,styled-components ,material ui .'
   },
   {
       id: 2,
@@ -26,7 +26,7 @@ const PortfolioData = [
       link1: 'https://mohamed22221.github.io/Dashboard',
       link2: 'https://github.com/Mohamed22221/Dashboard',
       title: 'Dashboard',
-      text: 'Created with only React.js/css3 and material ui'
+      text: 'Created with only React.js , css3 , material ui'
   },
   {
       id: 3,
@@ -35,7 +35,7 @@ const PortfolioData = [
       link1: 'https://mohamed22221.github.io/cryptocurrency/',
       link2: 'https://github.com/Mohamed22221/cryptocurrency',
       title: 'cryptocurrency',
-      text: 'Created with only React.js /css3 ,Axios Api and material ui'
+      text: 'Created with only React.js , css3 ,Axios Api , material ui'
   },
   {
       id: 4,

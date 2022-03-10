@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 const GlopalStyle = createGlobalStyle`
- :root{
+ /*:root{
     --primary-color: #007bff;
     --primary-color-light: #057FFF;
     --secondary-color: #6c757d;
@@ -18,7 +18,7 @@ const GlopalStyle = createGlobalStyle`
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
     --trasparent : #007bff1f
-} 
+} */
 .light-theme{
     --primary-color: #007bff;
     --primary-color-light: #057FFF;
@@ -36,6 +36,7 @@ const GlopalStyle = createGlobalStyle`
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
+    --trasparent : #007bff1f;
 }
 .dark-theme{
     
@@ -55,6 +56,7 @@ const GlopalStyle = createGlobalStyle`
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
+    --trasparent : #007bff1f;
 }
 *{
     margin: 0;
@@ -70,12 +72,49 @@ body{
     background-color:var(--background-dark-color) ;
      font-family: 'Nunito', sans-serif;
      color: var(--font-light-color);
-;
+
+}
+body::-webkit-scrollbar{
+    width: 9px;
+    background-color: #383838;
+}
+body::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #6b6b6b;
+}
+body::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: #383838;
 }
 a{
-    color: inherit;
+    
+    font-family: inherit;
+    color: var(--font-light-color);
+    font-size: inherit;
+    font-size: 1rem;
 }
 
+span{
+    color: var(--primary-color);
+}
+h6{
+    color: var(--white-color);
+    font-size: 1.2rem;
+    padding-bottom: .6rem;
+}
+.dark-light{
+  display:flex ;
+  align-items:center ;
+  position:fixed ;
+  right:0px ;
+  z-index:50 ;
+  top:40px ;
+  background-color:var(  --sidebar-dark-color) ;
+  padding: 0 10px ;
+  .mode-icon{
+    margin-top:5px ;
+  }
+}
 `
 
 export default GlopalStyle

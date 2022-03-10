@@ -8,12 +8,38 @@ import Blogs from './pages/Blogs';
 import Contact from './pages/Contact';
 import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
-
+import LightModeIcon from '@mui/icons-material/LightMode';
+import { Switch } from "@mui/material";
+import { useEffect, useState } from "react";
 function App() {
+  const [theme , setTheme] = useState('dark-theme')
+  useEffect(()=>{
+    document.documentElement.className = theme
+  },[theme])
+  const HandelColor =()=>{
+    if(theme === "dark-theme"){
+      setTheme("light-theme")
+    }else{
+      setTheme("dark-theme")
+    }
+   
+  }
+  
   return (
-    <StyleApp> 
-       <SideBar />
+    <StyleApp>
+      {/*start dark and light mode */}
+      <div className="dark-light">
+        <div className="left-mode">
+          <LightModeIcon className="mode-icon"/>
+        </div>
+        <div className="right-mode">
+        <Switch onClick={HandelColor}
+        />
+      </div>
 
+      </div>
+      {/*end dark and light mode */} 
+       <SideBar />
        <div className="content">
         <Lines />
      <Routes>
@@ -37,6 +63,10 @@ background-color: var(--background-dark-color);
   position: relative;
   margin-left: 300px;
   height: 100vh;
+  @media (max-width:1100px) {
+      margin:0;
+    }
+ 
 }
 `;
 export default App;

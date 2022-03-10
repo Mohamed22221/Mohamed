@@ -62,7 +62,7 @@ const MainImgSection = styled.div`
         padding-left:1rem ;
         h4 {
         font-size:2.2rem ;
-        color : white;
+        color : var(--white-color);
         margin-bottom: 16px ;
         span{
             font-size:2rem ;
