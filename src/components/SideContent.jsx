@@ -3,34 +3,34 @@ import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 import Avatar from '../img/myphoto.jpg'
 
-export const SideContent = () => {
+export const SideContent = ({close}) => {
     const  [active ,setActive] = useState("unactive") 
  const activeFunction = () =>{
     setActive("active")
  }
   return (
-    <NavSideBar>
+    <NavSideBar >
         <div className='avatar'>
             <img src={Avatar} alt="my-photo" />
         </div>
         <ul>
-            <li className='nav-item'>
-                <NavLink to='/Mohamed'  >Home</NavLink>
+            <li className='nav-item' >
+                <NavLink onClick={close} to='/Mohamed'  >Home</NavLink>
             </li>
             <li className='nav-item' onClick={activeFunction}>
-                <NavLink to='/about'>About</NavLink>
+                <NavLink onClick={close} to='/about'>About</NavLink>
             </li>
             <li className='nav-item' onClick={activeFunction}>
-                <NavLink to='/resume'>Resume</NavLink>
+                <NavLink onClick={close} to='/resume'>Resume</NavLink>
             </li>
             <li className='nav-item' onClick={activeFunction}>
-                <NavLink to='/portfolio'>Portfolio</NavLink>
+                <NavLink onClick={close} to='/portfolio'>Portfolio</NavLink>
             </li>
             <li className='nav-item' onClick={activeFunction}>
-                <NavLink to='/blogs' className="active-class">Blogs</NavLink>
+                <NavLink onClick={close} to='/blogs' className="active-class">Blogs</NavLink>
             </li>
             <li className='nav-item' onClick={activeFunction}>
-                <NavLink to='/contact' className="active-class">Contact</NavLink>
+                <NavLink onClick={close} to='/contact' className="active-class">Contact</NavLink>
             </li>
             
         </ul>

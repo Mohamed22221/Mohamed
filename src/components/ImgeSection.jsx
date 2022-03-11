@@ -50,6 +50,10 @@ const MainImgSection = styled.div`
     z-index:50 ;
     display:flex ;
     margin-top: 80px ;
+    @media (max-width:1000px) {
+        flex-direction:column
+        
+    }
     .img-about{
         width: 100% ;
         margin-right:1rem ;
@@ -86,8 +90,34 @@ const MainImgSection = styled.div`
             margin:10px 0 ;    
             }
         }
+        @media (max-width:1000px) {
+            margin-left:0.2rem ;
+            padding-left:0.2rem ;
+        h4{
+            font-size: 1.3rem;
+            span{
+            font-size: 1.3rem;
+            }
+        }
+        .about-info {
+           
+            .info-title p{
+            padding-right:5px ;
+            margin:10px 0 ;
+            font-weight: 800 ;
+            
+        }
+            .info p{
+            padding-left:5px ;
+            margin:10px 0 ; 
+            font-size:17px ;
+            }
+        }
+        
+    }
 
     }
+
 
 
 `

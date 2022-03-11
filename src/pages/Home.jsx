@@ -38,11 +38,6 @@ const MainHome = styled.div`
     width:100% ;
     height:100vh ;
     position: relative;
-    @media (max-width:1100px) {
-      .home h1 {
-        font-size:20px ;
-      }
-    }
     .particles-js{
     z-index:0;
     }
@@ -61,7 +56,10 @@ const MainHome = styled.div`
       h1 {
         font-size: 64px ;
         color:var(--white-color) ;
+          @media (max-width:1100px) {
       
+      
+    }
       span{
         font-size:inherit;
         color:var(--primary-color)

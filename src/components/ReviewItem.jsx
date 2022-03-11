@@ -14,6 +14,7 @@ const RevivewItemStyled = styled.div`
     background-color: var(--background-dark-grey);
     position: relative;
     width: 100%;
+    margin-bottom: 80px;
     &:not(:first-child){
         
     }

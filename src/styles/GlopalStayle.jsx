@@ -107,7 +107,7 @@ h6{
   align-items:center ;
   position:fixed ;
   right:0px ;
-  z-index:50 ;
+  z-index:110 ;
   top:40px ;
   background-color:var(  --sidebar-dark-color) ;
   padding: 0 10px ;
@@ -115,6 +115,25 @@ h6{
     margin-top:5px ;
   }
 }
+.burger-menue{
+   
+  align-items:center ;
+  position:fixed ;
+  right:0px ;
+  z-index:110 ;
+  top:79px ;
+  background-color:var(  --sidebar-dark-color) ;
+  display: none;
+
+}
+@media (max-width:1100px) {
+  .burger-menue{
+      display: flex;
+  }
+}
+.side-par{
+      transform:translateX(0) ;
+    }
 `
 
 export default GlopalStyle

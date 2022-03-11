@@ -9,9 +9,11 @@ import Contact from './pages/Contact';
 import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
 import LightModeIcon from '@mui/icons-material/LightMode';
-import { Switch } from "@mui/material";
+import MenuIcon from '@mui/icons-material/Menu';
+import { Button, Switch } from "@mui/material";
 import { useEffect, useState } from "react";
 function App() {
+  //start take action mode view
   const [theme , setTheme] = useState('dark-theme')
   useEffect(()=>{
     document.documentElement.className = theme
@@ -24,7 +26,10 @@ function App() {
     }
    
   }
-  
+  //start take action side par Menu
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+  const close =() => setClick(false)
   return (
     <StyleApp>
       {/*start dark and light mode */}
@@ -39,7 +44,8 @@ function App() {
 
       </div>
       {/*end dark and light mode */} 
-       <SideBar />
+       <SideBar click={click} close={close} />
+       <div className="burger-menue"><Button onClick={handleClick}><MenuIcon/></Button></div>
        <div className="content">
         <Lines />
      <Routes>
@@ -58,7 +64,6 @@ function App() {
 
 const StyleApp = styled.div`
 background-color: var(--background-dark-color);
-
 .content{
   position: relative;
   margin-left: 300px;

@@ -96,6 +96,10 @@ const ContactStyle = styled.div`
        width: 80% ;
        padding:15px 0 ;
        position:relative ;
+       @media (max-width:1100px) {
+             width:95%
+                
+        }
        label{
            position:absolute ;
            font-size:13px ;
@@ -114,6 +118,8 @@ const ContactStyle = styled.div`
     }
     //right Contact
     .right-content{
+
+        }
         .item-right{
             display: flex;
             align-items:center ;
@@ -121,6 +127,10 @@ const ContactStyle = styled.div`
             background-color:var(--sidebar-dark-color) ;
             padding:15px 20px ;
             margin:18px 0 ;
+            @media (max-width:1100px) {
+                padding:15px 10px ;
+                
+        }
         }
         .icon-contact{
             border: 1px solid var(--border-color);
@@ -128,6 +138,8 @@ const ContactStyle = styled.div`
             padding:20px ;
             margin-right: 20px;
             text-align: center;
+
+            
         }
         .content-contact{
             
@@ -142,8 +154,15 @@ const ContactStyle = styled.div`
                 a:hover{
                     color:var(--primary-color) ;
                 }
+                @media (max-width:1100px) {
+               font-size:18px;
+               a{
+                font-size:16px;
+               }
+        }
             }
         }
     }
+
 `
 export default Contact
