@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {  Routes,Route,} from "react-router-dom";
+import {  Routes,Route} from "react-router-dom";
 import SideBar from './components/SideBar';
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -12,7 +12,9 @@ import LightModeIcon from '@mui/icons-material/LightMode';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Button, Switch } from "@mui/material";
 import { useEffect, useState } from "react";
+import {TransitionGroup, CSSTransition} from "react-transition-group";
 function App() {
+  
   //start take action mode view
   const [theme , setTheme] = useState('dark-theme')
   useEffect(()=>{
@@ -49,13 +51,17 @@ function App() {
        <div className="content">
         <Lines />
      <Routes>
+      
+
      <Route path="/" element={ <Home />} /> 
        <Route path="/Mohamed" element={ <Home />} /> 
        <Route path="/about" element={ <About />} />
        <Route path="/blogs" element={ <Blogs/>} />
        <Route path="/contact" element={ <Contact/>} /> 
        <Route path="/resume" element={ <Resume/>} /> 
-       <Route path="/portfolio" element={ <Portfolio/>} /> 
+       <Route path="/portfolio" element={ <Portfolio/>} />
+       
+        
      </Routes>
        </div>
     </StyleApp>

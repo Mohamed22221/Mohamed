@@ -68,6 +68,7 @@ const GlopalStyle = createGlobalStyle`
     font-size: 1.1rem;
     
 }
+
 body{
     background-color:var(--background-dark-color) ;
      font-family: 'Nunito', sans-serif;

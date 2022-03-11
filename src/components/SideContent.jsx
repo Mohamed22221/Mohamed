@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink ,useLocation } from 'react-router-dom'
 import styled from 'styled-components'
 import Avatar from '../img/myphoto.jpg'
 
+
 export const SideContent = ({close}) => {
+    let location = useLocation();
     const  [active ,setActive] = useState("unactive") 
  const activeFunction = () =>{
     setActive("active")

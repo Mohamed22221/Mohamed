@@ -11,6 +11,7 @@ function Title({title, span}) {
 
 const TitleStyled = styled.div`
     position: relative;
+    user-select: none;
     h2{
         color: var(--white-color);
         font-size: 3.1rem;
@@ -49,7 +50,7 @@ const TitleStyled = styled.div`
         }
         span{
             font-weight: 900;
-            color: #191d2bda;
+            color:var(--border-color);
             font-size: 4rem;
             position: absolute;
             left: 0;

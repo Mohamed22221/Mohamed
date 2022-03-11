@@ -25,7 +25,7 @@ const Home = () => {
           <a href='https://www.linkedin.com/in/mohamed-hamdy-94b992219/' target="_blank">
             <LinkedInIcon className='icon' />
           </a>
-          <a href='https://codepen.io/your-work' target="_blank">
+          <a href='https://www.upwork.com/freelancers/~016ff38454db0dfc84' target="_blank">
             <CodeIcon className='icon' />
           </a>
 
