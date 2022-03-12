@@ -1,10 +1,11 @@
 import React from 'react'
 import styled from 'styled-components';
-
+import cv from "../img/cv.pdf"
 function PrimaryButton({title}) {
     return (
-        <PrimaryButtonStyled>
+        <PrimaryButtonStyled href={cv}>
             {title}
+            
         </PrimaryButtonStyled>
     )
 }
