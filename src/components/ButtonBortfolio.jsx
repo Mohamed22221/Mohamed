@@ -1,11 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 import { LayoutCulame } from '../styles/Layouts'
-const ButtonBortfolio = ({Filter}) => {
+const ButtonBortfolio = ({Filter ,menuItem}) => {
   return (
    <LayoutCulame>
+        
+
     <StyleButoon>
-         <button type='button' onClick={()=>Filter("All")}>All</button>
+        
+         <button type='button' onClick={()=>Filter("All")}>All<span className='total'>{menuItem.length}</span></button>
         <button type='button' onClick={()=>Filter("React")}>React</button>
         <button type='button' onClick={()=>Filter("Javascript")}>Javascript</button>
 
@@ -17,7 +20,14 @@ const ButtonBortfolio = ({Filter}) => {
 const StyleButoon = styled.div`
 display: flex ;
 justify-content:center ;
-
+.total{
+    color: white ;
+    padding: 0 10px;
+    margin: 0 5px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #445eac;
+}
 button{
 all:unset;
 cursor:pointer ;

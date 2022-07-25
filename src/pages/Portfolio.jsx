@@ -23,7 +23,7 @@ const Portfolio = () => {
     <Layouts>
     <MainPortfolio>
     <Title title={'portfolio'} span={'portfolio'} />
-    <ButtonBortfolio Filter={Filter} />
+    <ButtonBortfolio Filter={Filter} menuItem={menuItem} />
     <Menue menueItem={menuItem} />
     </MainPortfolio>
   </Layouts>
