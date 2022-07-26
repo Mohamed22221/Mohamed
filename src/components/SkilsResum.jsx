@@ -26,6 +26,11 @@ const SkilsResum = () => {
            width="70%"
            />
            <ProgresPar 
+           title="scss"
+           text="70%"
+           width="70%"
+           />
+           <ProgresPar 
            title="Javascript"
            text="80%"
            width="80%"
@@ -36,9 +41,24 @@ const SkilsResum = () => {
            width="90%"
            />
            <ProgresPar 
+           title="redux-toolkit"
+           text="90%"
+           width="90%"
+           />
+           <ProgresPar 
            title="Next.js"
            text="50%"
            width="60%"
+           />
+          <ProgresPar 
+           title="axios web api"
+           text="80%"
+           width="65%"
+           />
+           <ProgresPar 
+           title="algorithm & data structure"
+           text="65%"
+           width="65%"
            />
           <ProgresPar 
            title="bootstrap React"
@@ -55,7 +75,7 @@ const SkilsResum = () => {
            text="60%"
            width="60%"
            />
-            <ProgresPar 
+          <ProgresPar 
            title="git/github"
            text="85%"
            width="85%"
