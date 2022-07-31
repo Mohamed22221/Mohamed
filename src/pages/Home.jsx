@@ -19,13 +19,13 @@ const Home = () => {
         e & more interactive with web animations.
         </div>
         <div className='icons'>
-          <a href='https://github.com/Mohamed22221?tab=repositories' target="_blank">
+          <a href='https://github.com/Mohamed22221' target="_blank">
             <GitHubIcon className='icon' />
           </a>
-          <a href='https://www.linkedin.com/in/mohamed-hamdy-94b992219/' target="_blank">
+          <a href='https://www.linkedin.com/in/mohamed-al-asfar-94b992219' target="_blank">
             <LinkedInIcon className='icon' />
           </a>
-          <a href='https://www.upwork.com/freelancers/~016ff38454db0dfc84' target="_blank">
+          <a href='https://codesandbox.io/dashboard/all/?workspace=78ee9af8-5478-4fa7-83f1-ee5967995564' target="_blank">
             <CodeIcon className='icon' />
           </a>
 
