@@ -25,7 +25,7 @@ const Home = () => {
           <a href='https://www.linkedin.com/in/mohamed-al-asfar-94b992219' target="_blank">
             <LinkedInIcon className='icon' />
           </a>
-          <a href='https://codesandbox.io/dashboard/all/?workspace=78ee9af8-5478-4fa7-83f1-ee5967995564' target="_blank">
+          <a href='https://edabit.com/user/Z8gBkrpWkEPzEkjCc' target="_blank">
             <CodeIcon className='icon' />
           </a>
 
