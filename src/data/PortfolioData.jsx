@@ -8,6 +8,8 @@ import img6 from "../img/portfolio/img6.jpg"
 import img7 from "../img/portfolio/img7.jpg"
 import img8 from "../img/portfolio/img8.jpg"
 import img9 from "../img/portfolio/img9.jpeg"
+import img16 from "../img/portfolio/img16.jpg"
+
 import img10 from "../img/portfolio/img10.jpeg"
 import img11 from "../img/portfolio/img11.jpeg"
 import img12 from "../img/portfolio/img12.jpeg"
@@ -48,7 +50,7 @@ const PortfolioData = [
         id: 4,
         category: 'React',
         image: img12,
-        link1: 'https://mohamed22221.github.io/JM-HOLDER',
+        link1: 'https://www.jmgroupkw.com/',
         link2: 'https://github.com/Mohamed22221/JM-HOLDER',
         title: 'Jm-holding',
         text: 'Created with only React.js , Styled-component,api axios ,two language'
@@ -62,9 +64,18 @@ const PortfolioData = [
         title: 'Easy media',
         text: 'Created with only React.js , Styled-component'
     },
-
     {
         id: 6,
+        category: 'React',
+        image: img16,
+        link1: 'https://sara-alhuwaidi.info/',
+        link2: 'https://github.com/Mohamed22221/SarahAl-Huwaidi',
+        title: 'Sara-alhuwaidi',
+        text: 'Created with only React.js , Styled-component'
+    },
+
+    {
+        id: 7,
         category: 'React',
         image: img13,
         link1: 'https://mohamed22221.github.io/generator-color/',
@@ -73,7 +84,7 @@ const PortfolioData = [
         text: 'Created with only React.js ,scss , value.js library'
     },
     {
-        id: 7,
+        id: 8,
         category: 'React',
         image: img15,
         link1: 'https://mohamed22221.github.io/Tours/',
@@ -86,7 +97,7 @@ const PortfolioData = [
 
 
     {
-        id: 7,
+        id: 9,
         category: 'React',
         image: img10,
         link1: 'https://mohamed22221.github.io/Mining/',
@@ -97,7 +108,7 @@ const PortfolioData = [
 
 
     {
-        id: 8,
+        id: 10,
         category: 'React',
         image: img2,
         link1: 'https://mohamed22221.github.io/Dashboard',
@@ -106,7 +117,7 @@ const PortfolioData = [
         text: 'Created with only React.js , css3 , material ui'
     },
     {
-        id: 9,
+        id: 11,
         category: 'React',
         image: img3,
         link1: 'https://mohamed22221.github.io/cryptocurrency/',
@@ -115,7 +126,7 @@ const PortfolioData = [
         text: 'Created with only React.js , css3 ,Axios Api , material ui'
     },
     {
-        id: 10,
+        id: 12,
         category: 'React',
         image: img4,
         link1: 'https://dempup4n7capaooozjezkg-on.drv.tw/html-css-js-website-smooth-scroll-master/',
@@ -124,7 +135,7 @@ const PortfolioData = [
         text: 'Created with only React.js/ css3 and bootstrap'
     },
     {
-        id: 11,
+        id: 13,
         category: 'React',
         image: img5,
         link1: 'https://mohamed22221.github.io/loseweight/',
@@ -133,7 +144,7 @@ const PortfolioData = [
         text: 'Created with only React.js/ css3 and bootstrap'
     },
     {
-        id: 12,
+        id: 14,
         category: 'React',
         image: img6,
         link1: 'https://mohamed22221.github.io/calculator/',
@@ -142,7 +153,7 @@ const PortfolioData = [
         text: 'Created using HTML/CSS/javascript/bootstrap'
     },
     {
-        id:13,
+        id:15,
         category: 'Javascript',
         image: img7,
         link1: 'https://zpjkozzfho0bvzto2xjrkq.on.drv.tw/Ecommerce%20gym/indix.html',
@@ -151,7 +162,7 @@ const PortfolioData = [
         text: 'Created using HTML/CSS/javascript/bootstrap'
     },
     {
-        id: 14,
+        id: 16,
         category: 'Javascript',
         image: img8,
         link1: 'https://zpjkozzfho0bvzto2xjrkq.on.drv.tw/todo%20list%20/todolist2.html',
