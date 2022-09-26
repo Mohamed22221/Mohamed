@@ -9,13 +9,21 @@ import img7 from "../img/portfolio/img7.jpg"
 import img8 from "../img/portfolio/img8.jpg"
 import img9 from "../img/portfolio/img9.jpeg"
 import img16 from "../img/portfolio/img16.jpg"
-
 import img10 from "../img/portfolio/img10.jpeg"
 import img11 from "../img/portfolio/img11.jpeg"
 import img12 from "../img/portfolio/img12.jpeg"
 import img13 from "../img/portfolio/img13.png"
 import img14 from "../img/portfolio/img14.jpeg"
 import img15 from "../img/portfolio/img15.png"
+import img17 from "../img/portfolio/img17.jpeg"
+import img18 from "../img/portfolio/img18.jpeg"
+import img19 from "../img/portfolio/img19.jpeg"
+import img20 from "../img/portfolio/img20.jpeg"
+import img21 from "../img/portfolio/img21.jpg"
+
+
+
+
 
 
 const PortfolioData = [
@@ -29,7 +37,53 @@ const PortfolioData = [
         text: 'Created with only React.js ,css3 ,styled-components ,material ui .'
     },
     {
+        id: 1,
+        category: 'React',
+        image: img21,
+        link1: 'https://edabit.com/user/Z8gBkrpWkEPzEkjCc',
+        link2: 'https://edabit.com/user/Z8gBkrpWkEPzEkjCc',
+        title: 'Problem solving (edabit)',
+        text: 'Solve more than 100 problems'
+    },
+    {
         id: 2,
+        category: 'React',
+        image: img19,
+        link1: 'https://dash-domain.vercel.app/admin',
+        link2: 'https://dash-domain.vercel.app/admin',
+        title: 'Dashboard hosting admin',
+        text: 'Created with only React.js ,scss ,Redux Toolkit '
+    },
+    {
+        id: 3,
+        category: 'React',
+        image: img20,
+        link1: 'https://dash-domain.vercel.app/',
+        link2: 'https://dash-domain.vercel.app/',
+        title: 'Dashboard hosting user',
+        text: 'Created with only React.js ,scss ,Redux Toolkit '
+    },
+
+    {
+        id: 4,
+        category: 'React',
+        image: img18,
+        link1: 'https://domain-triple.vercel.app/',
+        link2: 'https://domain-triple.vercel.app/',
+        title: 'Hosting website',
+        text: 'Created with only React.js ,scss ,api axios  '
+    },
+    {
+        id: 5,
+        category: 'React',
+        image: img17,
+        link1: 'https://tracking.000itkw.com/',
+        link2: 'https://tracking.000itkw.com/',
+        title: 'Dashboard tracking',
+        text: 'Created with only React.js ,scss ,api axios ,Redux Toolkit '
+    },
+    {
+        id: 6,
         category: 'React',
         image: img11,
         link1: 'https://mohamed22221.github.io/Menue-Restaurant/',
@@ -38,16 +92,16 @@ const PortfolioData = [
         text: 'Created with only React.js ,Redux Toolkit , Styled-component'
     },
     {
-        id: 3,
+        id: 7,
         category: 'React',
-        image: img14,
-        link1: 'https://mohamed22221.github.io/Bader-Group/',
-        link2: 'https://github.com/Mohamed22221/Bader-Group',
-        title: 'Bader Group',
-        text: 'Created with only React.js ,scss ,api axios ,two language '
+        image: img9,
+        link1: 'https://www.easymedia.agency/',
+        link2: 'https://github.com/Mohamed22221/easymedia',
+        title: 'Easy media',
+        text: 'Created with only React.js , Styled-component'
     },
     {
-        id: 4,
+        id: 8,
         category: 'React',
         image: img12,
         link1: 'https://www.jmgroupkw.com/',
@@ -56,14 +110,16 @@ const PortfolioData = [
         text: 'Created with only React.js , Styled-component,api axios ,two language'
     },
     {
-        id: 5,
+        id: 9,
         category: 'React',
-        image: img9,
-        link1: 'https://www.easymedia.agency/',
-        link2: 'https://github.com/Mohamed22221/easymedia',
-        title: 'Easy media',
-        text: 'Created with only React.js , Styled-component'
+        image: img14,
+        link1: 'https://mohamed22221.github.io/Bader-Group/',
+        link2: 'https://github.com/Mohamed22221/Bader-Group',
+        title: 'Bader Group',
+        text: 'Created with only React.js ,scss ,api axios ,two language '
     },
+
+
     {
         id: 6,
         category: 'React',
