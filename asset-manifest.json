@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.js": "/Mohamed/static/js/main.832007a1.js",
+    "main.js": "/Mohamed/static/js/main.09a8ea5b.js",
     "static/js/787.5c0b2d12.chunk.js": "/Mohamed/static/js/787.5c0b2d12.chunk.js",
     "static/media/img15.png": "/Mohamed/static/media/img15.47c1c72c827148565f1a.png",
     "static/media/img3.jpg": "/Mohamed/static/media/img3.bef391270e847865054c.jpg",
     "static/media/myphoto2.jpg": "/Mohamed/static/media/myphoto2.8950b2d73a262b6d88b5.jpg",
     "static/media/cv.pdf": "/Mohamed/static/media/cv.ddef4489b730cdb9a96c.pdf",
+    "static/media/img21.jpg": "/Mohamed/static/media/img21.8bcce81071c98388486e.jpg",
     "static/media/myphoto.jpg": "/Mohamed/static/media/myphoto.a4b094d2b025e73089bb.jpg",
     "static/media/blog5.svg": "/Mohamed/static/media/blog5.2599a6b148b590c6ae22f160bfb1278e.svg",
     "static/media/blog1.svg": "/Mohamed/static/media/blog1.7ecbb78c2c6c6c0b932e117f71187572.svg",
@@ -14,6 +15,7 @@
     "static/media/blog3.svg": "/Mohamed/static/media/blog3.6291ee7cef8ff133eb035db378fd54fd.svg",
     "static/media/img9.jpeg": "/Mohamed/static/media/img9.383ec0ed42cbecec5c46.jpeg",
     "static/media/img16.jpg": "/Mohamed/static/media/img16.af63f6566664658f8f3c.jpg",
+    "static/media/img17.jpeg": "/Mohamed/static/media/img17.55ab3318d429bc28537c.jpeg",
     "static/media/img12.jpeg": "/Mohamed/static/media/img12.6a3706a51533b542ab3e.jpeg",
     "static/media/img6.jpg": "/Mohamed/static/media/img6.87ab6cb38d5325b5aec8.jpg",
     "static/media/img14.jpeg": "/Mohamed/static/media/img14.6167d5b032e02557b9e9.jpeg",
@@ -23,14 +25,17 @@
     "static/media/img1.jpg": "/Mohamed/static/media/img1.ba0ade450e735f7d1865.jpg",
     "static/media/img11.jpeg": "/Mohamed/static/media/img11.5f06ee5e4f5a8bd0cffc.jpeg",
     "static/media/img10.jpeg": "/Mohamed/static/media/img10.016e2435b8fcb7bf2cef.jpeg",
+    "static/media/img18.jpeg": "/Mohamed/static/media/img18.d86a7c7e671a5c3a4cf5.jpeg",
+    "static/media/img19.jpeg": "/Mohamed/static/media/img19.d601cbd9473eca7e74d6.jpeg",
     "static/media/img8.jpg": "/Mohamed/static/media/img8.833babf0bb747ccef4ea.jpg",
     "static/media/img4.jpg": "/Mohamed/static/media/img4.1a2916a9db9768caba07.jpg",
     "static/media/img13.png": "/Mohamed/static/media/img13.cca7cf96271238a7144c.png",
+    "static/media/img20.jpeg": "/Mohamed/static/media/img20.5433bae967f21696311e.jpeg",
     "index.html": "/Mohamed/index.html",
-    "main.832007a1.js.map": "/Mohamed/static/js/main.832007a1.js.map",
+    "main.09a8ea5b.js.map": "/Mohamed/static/js/main.09a8ea5b.js.map",
     "787.5c0b2d12.chunk.js.map": "/Mohamed/static/js/787.5c0b2d12.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.832007a1.js"
+    "static/js/main.09a8ea5b.js"
   ]
 }
