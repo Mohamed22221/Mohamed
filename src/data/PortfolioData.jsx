@@ -21,6 +21,10 @@ import img19 from "../img/portfolio/img19.jpeg"
 import img20 from "../img/portfolio/img20.jpeg"
 import img21 from "../img/portfolio/img21.jpg"
 import img22 from "../img/portfolio/img23.jpg"
+import img25 from "../img/portfolio/img25.png"
+import img26 from "../img/portfolio/img26.png"
+
+
 
 
 
@@ -29,15 +33,15 @@ import img22 from "../img/portfolio/img23.jpg"
 
 
 const PortfolioData = [
-    {
-        id: 1,
-        category: 'React',
-        image: img1,
-        link1: 'https://mohamed22221.github.io/Mohamed/',
-        link2: 'https://github.com/Mohamed22221/Mohamed',
-        title: 'Portfolio',
-        text: 'Created with only React.js ,css3 ,styled-components ,material ui .'
-    },
+    // {
+    //     id: 1,
+    //     category: 'React',
+    //     image: img1,
+    //     link1: 'https://mohamed22221.github.io/Mohamed/',
+    //     link2: 'https://github.com/Mohamed22221/Mohamed',
+    //     title: 'Portfolio',
+    //     text: 'Created with only React.js ,css3 ,styled-components ,material ui .'
+    // },
     {
         id: 2,
         category: 'React',
@@ -50,12 +54,22 @@ const PortfolioData = [
     {
         id: 3,
         category: 'React',
-        image: img22,
-        link1: 'https://store-restaurant.vercel.app/home',
-        link2: 'https://github.com/Mohamed22221/store-restaurant',
-        title: 'Restaurant (PWA)',
-        text: '(PWA) React.js ,scss ,Redux Toolkit '
+        image: img25,
+        link1: 'https://www.linkedin.com/posts/mohamed-al-asfar-94b992219_project-%D8%A8%D8%AE%D8%AF%D9%85%D8%AA%D9%83-abstract-dashboard-web-activity-7029577490046083072-H_JU?utm_source=share&utm_medium=member_desktop',
+        link2: 'https://www.linkedin.com/posts/mohamed-al-asfar-94b992219_project-%D8%A8%D8%AE%D8%AF%D9%85%D8%AA%D9%83-abstract-dashboard-web-activity-7029577490046083072-H_JU?utm_source=share&utm_medium=member_desktop',
+        title: 'Mashaweer',
+        text: ' React.js ,Redux Toolkit , scss ,api axios  '
     },
+    {
+        id: 4,
+        category: 'React',
+        image: img26,
+        link1: 'http://civilidkuwait.com/shipping/login',
+        link2: 'http://civilidkuwait.com/shipping/login',
+        title: 'Dashboard tracking',
+        text: 'Created with only React.js ,scss ,api axios ,Redux Toolkit '
+    },
+
     {
         id: 4,
         category: 'React',
@@ -85,33 +99,6 @@ const PortfolioData = [
         text: 'Created with only React.js ,scss ,api axios  '
     },
     {
-        id: 7,
-        category: 'React',
-        image: img17,
-        link1: 'https://tracking.000itkw.com/',
-        link2: 'https://tracking.000itkw.com/',
-        title: 'Dashboard tracking',
-        text: 'Created with only React.js ,scss ,api axios ,Redux Toolkit '
-    },
-    {
-        id: 8,
-        category: 'React',
-        image: img11,
-        link1: 'https://mohamed22221.github.io/Menue-Restaurant/',
-        link2: 'https://github.com/Mohamed22221/Menue-Restaurant',
-        title: 'Menue restaurant',
-        text: 'Created with only React.js ,Redux Toolkit , Styled-component'
-    },
-    {
-        id: 9,
-        category: 'React',
-        image: img9,
-        link1: 'https://www.easymedia.agency/',
-        link2: 'https://github.com/Mohamed22221/easymedia',
-        title: 'Easy media',
-        text: 'Created with only React.js , Styled-component'
-    },
-    {
         id: 10,
         category: 'React',
         image: img12,
@@ -129,8 +116,34 @@ const PortfolioData = [
         title: 'Bader Group',
         text: 'Created with only React.js ,scss ,api axios ,two language '
     },
+    {
+        id: 9,
+        category: 'React',
+        image: img9,
+        link1: 'https://www.easymedia.agency/',
+        link2: 'https://github.com/Mohamed22221/easymedia',
+        title: 'Easy media',
+        text: 'Created with only React.js , Styled-component'
+    },
+    {
+        id: 8,
+        category: 'React',
+        image: img11,
+        link1: 'https://mohamed22221.github.io/Menue-Restaurant/',
+        link2: 'https://github.com/Mohamed22221/Menue-Restaurant',
+        title: 'Menue restaurant',
+        text: 'Created with only React.js ,Redux Toolkit , Styled-component'
+    },
 
-
+    {
+        id: 5,
+        category: 'React',
+        image: img22,
+        link1: 'https://store-restaurant.vercel.app/home',
+        link2: 'https://github.com/Mohamed22221/store-restaurant',
+        title: 'Restaurant (PWA)',
+        text: '(PWA) React.js ,scss ,Redux Toolkit '
+    },
     {
         id: 12,
         category: 'React',
